@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hip-hop</title>
+    <style>
+           *{
+	margin: 0;
+}
+        .button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+a{
+	text-decoration: none;
+}
+h1{
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    z-index: 2;
+}
+.bgrvideo{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.bgrvideo video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  object-fit: cover;
+  z-index: 1;
+}
+header{
+    height: 150px;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2545.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+.video{
+    float: right;
+    margin-right: 20px;
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="bgrvideo">
+            <h1>Me and hip-hop</h1></div>
+    </header>
+    
+    <div class="video"><video width="600" height="400" controls>
+        <source src="video/hip-hop.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+    </video>
+    </div>
+    <div style="width: 40%; margin-left: 30px; margin-top: 30px; font-size: 30px; color: rgb(0, 0, 0);"><p>
+        After I quit aerobics, I started hip hop dancing. There was a very friendly team and a warm atmosphere. Our team took part in the competition, in which we won the grand prize and the video from which is presented on this website. I danced for half a year, until I found programming courses and decided to choose them, because I physically did not have enough time to do both. But I continue to do sports activities, namely going to group fitness classes to keep fit.
+
+
+    </p></div>
+    <a class="button" href="index.html"><button class="button-56" role="button" style="font-size: 15px;">Back to the main page</button></a> 
+</body>
+</html>
